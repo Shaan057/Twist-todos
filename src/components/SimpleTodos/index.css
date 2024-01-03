@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  background-color:#9055F8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  background-color: #171A2A;
+  padding: 50px 10px 20px 10px;
+  border-radius: 10px;
+}
+.list-container {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+form {
+  color: white;
+  width: 100%;
+}
+
+.inputs-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.field-set {
+  border: 1px solid grey;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.legend:hover {
+  color: rgb(255, 128, 0);
+  font-size: 16px;
+}
+
+.todos-input-box {
+  padding-left: 4px;
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+.todos-input-box::placeholder {
+  font-size: 10px;
+  color: rgb(183, 168, 168);
+}
+
+.add-button {
+  color: darkorange;
+  border: 1px solid darkorange;
+  background-color: transparent;
+  padding: 2px 5px 2px 5px;
+  border-radius: 0px;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: darkorange;
+  color: white;
+}
